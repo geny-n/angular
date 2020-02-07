@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+html
+{
+    background-image:linear-gradient(rgb(87, 49, 175), rgb(5, 10, 39));
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

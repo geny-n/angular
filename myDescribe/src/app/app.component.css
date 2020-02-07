@@ -1,0 +1,44 @@
+.boutonmenuprincipal {
+  position: relative;
+  background-color: #e83737;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding:20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+}
+.boutonmenuprincipal:hover {
+  background-color: #ff4444;
+}
+.dropdown {
+  position: fixed;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color: #f28c8c;
+  min-width: 50px;
+}
+.dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+}
+.nav {
+  position: fixed;
+  width: 98%;
+  padding: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  text-align: left
+}
+.nav2 {
+  text-align: right;
+  color: azure;
+}
